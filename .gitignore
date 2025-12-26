@@ -43,3 +43,6 @@
 # ignoring files not needed
 prog.c
 f2.txt
+
+# vscode settings
+.vscode/
