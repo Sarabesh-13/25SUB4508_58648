@@ -11,5 +11,8 @@ This repository contains the training materials and resources for the Wipro Pres
 
 ### Getting Started
 
-To get started with the training materials, clone this repository to your local machine using the following commands.
+To Make use of this repository, clone it to your local machine using the following command:
 
+```bash
+git clone https://github.com/Sarabesh-13/wipro-preskilling-training.git
+```
