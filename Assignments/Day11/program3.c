@@ -1,4 +1,4 @@
-//write a program to find frequency of each character in string
+//write a program to find frequency of each word in string
 #include<stdio.h>
 #include<stdlib.h>
 #include<ctype.h>
