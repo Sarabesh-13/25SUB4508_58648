@@ -4,6 +4,7 @@
 #include<stdbool.h>
 #include<math.h>
 
+
 bool is_prime(int n)
 {
     if(n<2)
@@ -20,6 +21,24 @@ bool is_prime(int n)
     return true;
 }
 
+
+bool is_prime_digits(int n)
+{
+    int c2=0;
+    int c1=0;
+    while(n>0)
+    {
+        int r=n%10;
+        if(is_prime(r))
+        {
+           c2+=1;
+        }
+        c1+=1;
+        n/=10;
+    }
+    return (c1==c2);
+}
+
 int main()
 {
     int N;
@@ -28,7 +47,7 @@ int main()
     int count=0,i=1;
     while(count<N)
     {
-        if(is_prime(i))
+        if(is_prime_digits(i))
         {
             printf("%d ",i);
             count++;
