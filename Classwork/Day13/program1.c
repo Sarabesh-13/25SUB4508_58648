@@ -1,3 +1,4 @@
+//program to demonstrate enum in C
 #include<stdio.h>
 #include<stdlib.h>
 

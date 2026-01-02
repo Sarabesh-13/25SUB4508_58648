@@ -1,3 +1,4 @@
+//program for getting file data into structure in c.
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdlib.h>
@@ -31,5 +32,21 @@ int main()
   fprintf(stdout,"\n%s\n",str);
   fclose(fp);
   char* token=strtok(str,"|");
+  strcpy(emp.name,token);
+  token=strtok(NULL,"|");
+  emp.id=atoi(token);
+  token=strtok(NULL,"|");
+  emp.gender=token[0];
+  token=strtok(NULL,"|");
+  emp.salary=atoi(token);
+  disp(emp);
   return 0;
+}
+
+void disp(const Emp e)
+{
+    printf("Name:%s\n",e.name);
+    printf("ID:%d\n",e.id);
+    printf("Gender:%c\n",e.gender);
+    printf("Salary:%d\n",e.salary);
 }

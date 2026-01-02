@@ -1,3 +1,4 @@
+//program number pattern
 #include<stdio.h>
 #include<stdlib.h>
 

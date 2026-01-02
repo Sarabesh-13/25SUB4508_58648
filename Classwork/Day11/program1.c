@@ -1,3 +1,4 @@
+//program for print square root -1 value for each number upto N
 #include<stdio.h>
 #include<stdlib.h>
 

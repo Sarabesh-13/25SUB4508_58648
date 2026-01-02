@@ -1,3 +1,4 @@
+//program to get input and sort array using pointer manipulation
 #include<stdio.h>
 #include<stdlib.h>
 

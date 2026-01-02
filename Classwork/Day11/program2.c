@@ -1,3 +1,5 @@
+//program for abc pattern
+
 #include<stdio.h>
 #include<stdlib.h>
 
