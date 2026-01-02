@@ -3,6 +3,7 @@
 #include<stdlib.h>
 #include<ctype.h>
 #include<stdbool.h>
+#include<string.h>
 
 #define MAX 256
 
@@ -27,7 +28,7 @@ void init (HashMap *array)
 int main()
 {
     HashMap array[MAX];
-    init(array);
+    init(&array);
     char str[999];
     int index=0;
     printf("enter the string: ");
@@ -52,6 +53,7 @@ int main()
             {
                 flag=!flag;
                 array[i].frequency+=1;
+                break;
             }
         }
         if(!flag)
