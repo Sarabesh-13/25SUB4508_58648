@@ -22,7 +22,7 @@ void reverse(char *string,int start,int low)
 
 int main()
 {
-    char str[999];
+    char str[MAX];
     printf("Enter the string: ");
     scanf("%[^\n]",str);
     int n=strlen(str);
