@@ -7,15 +7,26 @@
 
 bool is_godNumber(int n)
 {
-     if(n==1||n==2||n==3)
+     if(n==2||n==3)
      {
         return true;
      }
-     return (n%2==0||n%3==0||n%5==0);
+     bool f1=true,f2=true,f3=true;
+     int temp1=n,temp2=n,temp3=n;
+     while(temp1%2==0)
+     {
+        temp1=temp1/2;
+     }
+     while(temp2%3==0)
+     {
+        temp2=temp2/3;
+     }
+     while(temp3%5==0)
+     {
+        temp3=temp3/5;
+     }
+     return (temp1==1&&temp2==1&&temp3==1);
 }
-
-
-
 int main()
 {
     int n;
