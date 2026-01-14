@@ -10,7 +10,7 @@
 
 int main()
 {
-    char str1[999],str2[999];
+    char str1[MAX],str2[MAX];
     printf("Enter the string: ");
     scanf("%[^\n]",str1);
     printf("Enter the word to remove: ");

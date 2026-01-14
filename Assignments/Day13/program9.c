@@ -7,7 +7,7 @@ Implement this function in a C file "program9.c" and include the header file usi
 #include <stdio.h>
 #include "myheader.h"
 
-int main() {
-    printHelloWorld();
-    return 0;
+void printHelloWorld()
+{
+    printf("Hello world\n");
 }

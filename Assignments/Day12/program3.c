@@ -7,7 +7,7 @@
 
 int main()
 {
-    char str[999];
+    char str[MAX];
     printf("enter the string: ");
     scanf("%[^\n]",str);
     int i=0;

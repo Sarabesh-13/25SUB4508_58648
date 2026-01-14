@@ -8,7 +8,7 @@ int main()
     int num;
     printf("Enter an integer: ");
     scanf("%d", &num);
-    float n = (float)100;
+    float n = (float)num;
     float x = sqrt(num);
     float y = 0.1;
     while((x-y)>0.00001)

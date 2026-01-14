@@ -1,3 +1,4 @@
+//program for creating a stack class with template and implementing it with header file.
 #include<iostream>
 #include<cstdlib>
 #include "Stack.h"

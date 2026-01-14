@@ -1,3 +1,4 @@
+//program for using friend method in a class
 #include<iostream>
 #include<iomanip>
 
