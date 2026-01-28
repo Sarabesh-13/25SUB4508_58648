@@ -1,3 +1,4 @@
+//receiver.cpp for receiving data from shared memory using POSIX IPC
 #include <iostream>
 #include <fcntl.h>
 #include <sys/mman.h>

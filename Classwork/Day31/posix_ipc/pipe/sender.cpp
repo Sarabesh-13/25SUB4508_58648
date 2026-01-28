@@ -1,3 +1,10 @@
+/*
+
+sender.cpp for demonstrating inter-process communication using POSIX pipes.
+This program creates a pipe, forks a child process, and sends a message from the parent to the child.
+here unamed_pipe cannot have sender and receiver in different files as it is not persistent like named pipes.
+
+*/
 #include <iostream>
 #include <unistd.h>
 #include <cstring>

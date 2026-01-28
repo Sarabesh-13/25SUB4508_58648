@@ -1,3 +1,13 @@
+/*
+app_server.cpp
+
+the above code implements a TCP/IP application server in C++ that manages employee records with admin and user roles.
+It uses socket programming to handle client connections, 
+allowing admins to view and add employees, 
+while users can view and update their profiles.The server ensures thread-safe access 
+to the employee database stored in a file.
+
+*/
 #include <iostream>
 #include <fstream>
 #include <sstream>

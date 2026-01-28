@@ -1,3 +1,4 @@
+//sender.cpp for POSIX message queue
 #include <stdio.h>
 #include <fcntl.h>
 #include <sys/stat.h>

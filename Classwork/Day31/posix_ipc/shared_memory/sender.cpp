@@ -1,3 +1,7 @@
+/*
+sender.cpp for POSIX shared memory sender which writes a message to shared memory and 
+signals the receiver using a semaphore.
+*/
 #include <iostream>
 #include <fcntl.h>
 #include <sys/mman.h>

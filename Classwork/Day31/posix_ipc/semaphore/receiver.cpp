@@ -1,3 +1,4 @@
+// receiver.cpp for POSIX semaphore example
 #include <iostream>
 #include <semaphore.h>
 #include <fcntl.h>

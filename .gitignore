@@ -44,5 +44,8 @@
 prog.c
 f2.txt
 
+#remove any file created during ipc call
+ipc_*
+
 # vscode settings
 .vscode/

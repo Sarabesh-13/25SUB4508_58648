@@ -1,3 +1,4 @@
+//receiver.cpp for reading from a named pipe (FIFO)
 #include <iostream>
 #include <fcntl.h>
 #include <unistd.h>

@@ -1,7 +1,12 @@
+// app_client.cpp
 #include <iostream>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <string.h>
 #include <unistd.h>
-#include <cstring>
 #include <arpa/inet.h>
+
+using namespace std;
 
 #define PORT 9090
 #define BUFFER 1024
@@ -16,18 +21,18 @@ int main() {
 
     connect(sock, (sockaddr*)&addr, sizeof(addr));
 
-    char buf[BUFFER];
-    std::string input;
+    string acc;
+    cout << "Enter account number to verify: ";
+    cin >> acc;
 
-    while (true) {
-        int n = read(sock, buf, BUFFER - 1);
-        if (n <= 0) break;
+    string req = "VERIFY " + acc;
+    write(sock, req.c_str(), req.size());
+
+    char buf[BUFFER]{};
+    int n = read(sock, buf, BUFFER - 1);
+    if (n > 0) {
         buf[n] = '\0';
-        std::cout << buf;
-
-        std::getline(std::cin, input);
-        input += "\n";
-        write(sock, input.c_str(), input.size());
+        cout << "Server response: " << buf;
     }
 
     close(sock);

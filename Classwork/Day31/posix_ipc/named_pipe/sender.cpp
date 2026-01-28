@@ -1,3 +1,4 @@
+//sender.cpp for writing to a named pipe (FIFO)
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <unistd.h>
