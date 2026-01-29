@@ -8,17 +8,17 @@ OBJ_DIR := obj
 BIN_DIR := bin
 LIB_DIR := lib
 
-# Create directories
+# Create dirs
 DIRS := $(OBJ_DIR) $(BIN_DIR) $(LIB_DIR)
 
-# Executables
+# Binaries
 SERVER := $(BIN_DIR)/server
 CLIENT := $(BIN_DIR)/client
 
-# Object files (EXPLICIT — case-safe)
+# Object files (MATCH REAL FILENAMES)
 COMMON_OBJS := \
 	$(OBJ_DIR)/UDPSocket.o \
-	$(OBJ_DIR)/Client.o \
+	$(OBJ_DIR)/client.o \
 	$(OBJ_DIR)/ChatClient.o \
 	$(OBJ_DIR)/ChatServer.o
 
@@ -28,23 +28,23 @@ CLIENT_OBJS := $(COMMON_OBJS) $(OBJ_DIR)/client_main.o
 # Default target
 all: dirs $(SERVER) $(CLIENT)
 
-# Create directories if missing
+# Create directories
 dirs:
 	mkdir -p $(DIRS)
 
-# Server binary
+# Build server
 $(SERVER): $(SERVER_OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
-# Client binary
+# Build client
 $(CLIENT): $(CLIENT_OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
-# Compile rules (ONE PER SOURCE — SAFE)
+# Compile rules (EXPLICIT & SAFE)
 $(OBJ_DIR)/UDPSocket.o: $(SRC_DIR)/UDPSocket.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-$(OBJ_DIR)/Client.o: $(SRC_DIR)/Client.cpp
+$(OBJ_DIR)/client.o: $(SRC_DIR)/client.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 $(OBJ_DIR)/ChatClient.o: $(SRC_DIR)/ChatClient.cpp
