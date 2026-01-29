@@ -10,14 +10,14 @@ BIN_DIR = bin
 LIB_DIR = lib
 
 # Source files
-COMMON_SRCS = $(SRC_DIR)/UDPSocket.cpp
+COMMON_SRCS = $(SRC_DIR)/UDPSocket.cpp $(SRC_DIR)/Client.cpp
 SERVER_SRCS = $(COMMON_SRCS) $(SRC_DIR)/ChatServer.cpp $(SRC_DIR)/server.cpp
-CLIENT_SRCS = $(COMMON_SRCS) $(SRC_DIR)/ChatClient.cpp $(SRC_DIR)/client.cpp
+CLIENT_SRCS = $(COMMON_SRCS) $(SRC_DIR)/ChatClient.cpp $(SRC_DIR)/client_main.cpp
 
 # Object files
-COMMON_OBJS = $(OBJ_DIR)/UDPSocket.o
+COMMON_OBJS = $(OBJ_DIR)/UDPSocket.o $(OBJ_DIR)/Client.o
 SERVER_OBJS = $(COMMON_OBJS) $(OBJ_DIR)/ChatServer.o $(OBJ_DIR)/server.o
-CLIENT_OBJS = $(COMMON_OBJS) $(OBJ_DIR)/ChatClient.o $(OBJ_DIR)/client.o
+CLIENT_OBJS = $(COMMON_OBJS) $(OBJ_DIR)/ChatClient.o $(OBJ_DIR)/client_main.o
 
 # Output binaries
 SERVER_BIN = $(BIN_DIR)/server
@@ -47,10 +47,11 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp | $(OBJ_DIR)
 
 # Dependencies
 $(OBJ_DIR)/UDPSocket.o: $(SRC_DIR)/UDPSocket.cpp $(INC_DIR)/UDPSocket.h
-$(OBJ_DIR)/ChatServer.o: $(SRC_DIR)/ChatServer.cpp $(INC_DIR)/ChatServer.h $(INC_DIR)/UDPSocket.h
+$(OBJ_DIR)/Client.o: $(SRC_DIR)/Client.cpp $(INC_DIR)/Client.h
+$(OBJ_DIR)/ChatServer.o: $(SRC_DIR)/ChatServer.cpp $(INC_DIR)/ChatServer.h $(INC_DIR)/UDPSocket.h $(INC_DIR)/Client.h
 $(OBJ_DIR)/ChatClient.o: $(SRC_DIR)/ChatClient.cpp $(INC_DIR)/ChatClient.h $(INC_DIR)/UDPSocket.h
 $(OBJ_DIR)/server.o: $(SRC_DIR)/server.cpp $(INC_DIR)/ChatServer.h
-$(OBJ_DIR)/client.o: $(SRC_DIR)/client.cpp $(INC_DIR)/ChatClient.h
+$(OBJ_DIR)/client_main.o: $(SRC_DIR)/client_main.cpp $(INC_DIR)/ChatClient.h
 
 # Clean build artifacts
 clean:
