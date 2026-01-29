@@ -10,12 +10,12 @@ BIN_DIR = bin
 LIB_DIR = lib
 
 # Source files
-COMMON_SRCS = $(SRC_DIR)/UDPSocket.cpp $(SRC_DIR)/Client.cpp
+COMMON_SRCS = $(SRC_DIR)/UDPSocket.cpp
 SERVER_SRCS = $(COMMON_SRCS) $(SRC_DIR)/ChatServer.cpp $(SRC_DIR)/server.cpp
 CLIENT_SRCS = $(COMMON_SRCS) $(SRC_DIR)/ChatClient.cpp $(SRC_DIR)/client.cpp
 
 # Object files
-COMMON_OBJS = $(OBJ_DIR)/UDPSocket.o $(OBJ_DIR)/Client.o
+COMMON_OBJS = $(OBJ_DIR)/UDPSocket.o
 SERVER_OBJS = $(COMMON_OBJS) $(OBJ_DIR)/ChatServer.o $(OBJ_DIR)/server.o
 CLIENT_OBJS = $(COMMON_OBJS) $(OBJ_DIR)/ChatClient.o $(OBJ_DIR)/client.o
 
@@ -47,8 +47,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp | $(OBJ_DIR)
 
 # Dependencies
 $(OBJ_DIR)/UDPSocket.o: $(SRC_DIR)/UDPSocket.cpp $(INC_DIR)/UDPSocket.h
-$(OBJ_DIR)/Client.o: $(SRC_DIR)/Client.cpp $(INC_DIR)/Client.h
-$(OBJ_DIR)/ChatServer.o: $(SRC_DIR)/ChatServer.cpp $(INC_DIR)/ChatServer.h $(INC_DIR)/UDPSocket.h $(INC_DIR)/Client.h
+$(OBJ_DIR)/ChatServer.o: $(SRC_DIR)/ChatServer.cpp $(INC_DIR)/ChatServer.h $(INC_DIR)/UDPSocket.h
 $(OBJ_DIR)/ChatClient.o: $(SRC_DIR)/ChatClient.cpp $(INC_DIR)/ChatClient.h $(INC_DIR)/UDPSocket.h
 $(OBJ_DIR)/server.o: $(SRC_DIR)/server.cpp $(INC_DIR)/ChatServer.h
 $(OBJ_DIR)/client.o: $(SRC_DIR)/client.cpp $(INC_DIR)/ChatClient.h

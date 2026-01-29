@@ -1,0 +1,46 @@
+// app_client.cpp
+#include <iostream>
+#include <cstring>
+#include <unistd.h>
+#include <arpa/inet.h>
+#include <ctime>
+
+class VehicleClient {
+    int sock;
+    sockaddr_in server{};
+    int vehicleId;
+
+public:
+    VehicleClient(int id) : vehicleId(id) {
+        sock = socket(AF_INET, SOCK_DGRAM, 0);
+        server.sin_family = AF_INET;
+        server.sin_port = htons(9000);
+        server.sin_addr.s_addr = inet_addr("127.0.0.1");
+    }
+
+    void sendTelemetry() {
+        while (true) {
+            int speed = rand() % 120;
+            int temp = 60 + rand() % 40;
+            int rpm = 1000 + rand() % 3000;
+            time_t ts = time(nullptr);
+
+            char buffer[256];
+            snprintf(buffer, sizeof(buffer),
+                     "%d,%ld,%d,%d,%d",
+                     vehicleId, ts, speed, temp, rpm);
+
+            sendto(sock, buffer, strlen(buffer), 0,
+                   (sockaddr*)&server, sizeof(server));
+
+            std::cout << "Sent: " << buffer << std::endl;
+            sleep(1);
+        }
+    }
+};
+
+int main() {
+    VehicleClient client(101);
+    client.sendTelemetry();
+    return 0;
+}
