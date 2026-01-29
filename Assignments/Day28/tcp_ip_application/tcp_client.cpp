@@ -1,4 +1,5 @@
 // implementation of simple tcp/ip client connection using sockets.
+//Task 12
 #include <iostream>
 #include <cstring>
 #include <sys/socket.h>

@@ -27,12 +27,12 @@ public:
             time_t ts = time(nullptr);
 
             char buffer[256];
-            snprintf(buffer, sizeof(buffer),
-                     "%d,%ld,%d,%d,%d",
-                     vehicleId, ts, speed, temp, rpm);
+            char timebuf[32];
+            strftime(timebuf, sizeof(timebuf), "%Y-%m-%dT%H:%M:%S", localtime(&ts));
 
-            sendto(sock, buffer, strlen(buffer), 0,
-                   (sockaddr*)&server, sizeof(server));
+            snprintf(buffer, sizeof(buffer),
+                     "%d,%s,%d,%d,%d",
+                     vehicleId, timebuf, speed, temp, rpm);
 
             std::cout << "Vehicle " << vehicleId
                       << " sent telemetry\n";

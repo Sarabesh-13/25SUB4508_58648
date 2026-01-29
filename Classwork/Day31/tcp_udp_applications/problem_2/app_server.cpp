@@ -7,6 +7,8 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 
+#define SIZE 30
+
 /*
  Project: Vehicle Diagnostic Telemetry System
 
@@ -23,7 +25,7 @@
 
 struct TelemetryData
 {
-    long timestamp;
+    std::string timestamp;
     int speed;
     int temperature;
     int rpm;
@@ -86,8 +88,8 @@ public:
             buffer[bytes] = '\0';
 
             int vid, speed, temp, rpm;
-            long ts;
-            sscanf(buffer, "%d,%ld,%d,%d,%d", &vid, &ts, &speed, &temp, &rpm);
+            char ts[32];
+            sscanf(buffer, "%d,%31[^,],%d,%d,%d", &vid, ts, &speed, &temp, &rpm);
 
             vehicles[vid].add({ts, speed, temp, rpm}, vid);
             std::cout << "Received data from Vehicle " << vid << std::endl;
