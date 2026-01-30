@@ -33,6 +33,9 @@ public:
             snprintf(buffer, sizeof(buffer),
                      "%d,%s,%d,%d,%d",
                      vehicleId, timebuf, speed, temp, rpm);
+            
+            sendto(sock, buffer, strlen(buffer), 0,
+                   (sockaddr*)&server, sizeof(server));
 
             std::cout << "Vehicle " << vehicleId
                       << " sent telemetry\n";
