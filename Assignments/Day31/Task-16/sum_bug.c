@@ -1,3 +1,4 @@
+//program for gdb debugging
 #include<stdio.h>
 
 int main()

@@ -68,7 +68,7 @@ You can start multiple clients and they will all be able to chat with each other
 ├── ChatServer.h/.cpp     # Server logic class
 ├── ChatClient.h/.cpp     # Client logic class
 ├── server.cpp            # Server main (thin driver)
-├── client.cpp            # Client main (thin driver)
+├── client_main.cpp       # Client main (thin driver)
 ├── Makefile              # Build configuration
 └── README.md             # This file
 ```
