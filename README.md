@@ -430,6 +430,14 @@ This repository is organized into two main folders:
 **Classwork:**
 - `Classwork/Day32(CA-Software)/Software_Architecture_and_Design_Patterns.pptx`
 
+###- Day 33 - Computer Architecture (Software)
+**Topic:** CA-Software
+
+**Assignments:**
+- `Assignments/Day33(CA-Software)/Day33(CA-Software).docx`
+
+**Classwork:**
+- `Classwork/Day33(CA-Software)/SOLID_Principles_Presentation.pptx`
 ---
 
 ## Complete TOC Tasks Index
