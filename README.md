@@ -430,7 +430,7 @@ This repository is organized into two main folders:
 **Classwork:**
 - `Classwork/Day32(CA-Software)/Software_Architecture_and_Design_Patterns.pptx`
 
-###- Day 33 - Computer Architecture (Software)
+### Day 33 - Computer Architecture (Software)
 **Topic:** CA-Software
 
 **Assignments:**
