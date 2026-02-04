@@ -447,6 +447,14 @@ This repository is organized into two main folders:
 
 **Classwork:**
 - `Classwork/Day34(CA-Software)/Day34(CA-Software).docx`
+
+### Day 35 - Computer Architecture (Software)
+**Topic:** CA-Software
+**Assignments:**
+- `Assignments/Day35(CA-Software)/TOC_Exercise1.pdf`
+
+**Classwork:**
+- `Classwork/Day35(CA-Software)/Day35(CA-Software).docx`
 ---
 
 ## Complete TOC Tasks Index
@@ -495,6 +503,7 @@ This repository is organized into two main folders:
 - **TOC Assignment 1**: Day 32 - `Assignments/Day32(CA-Software)/TOC_Assignment1.pdf`
 - **TOC Assignment 2**: Day 33 - `Assignments/Day33(CA-Software)/TOC_Assignment2.pdf`
 - **TOC Assignment 3**: Day 34 - `Assignments/Day34(CA-Software)/TOC_Assignment3.pdf`
+- **TOC Exercise 1**: Day 35 - `Assignments/Day35(CA-Software)/TOC_Exercise1.pdf`
 ---
 
 ## Getting Started
