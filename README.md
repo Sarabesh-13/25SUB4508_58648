@@ -10,105 +10,105 @@ This repository is organized into two main folders:
 
 ## Day-by-Day Training Content
 
-### Day 1 - Computer Architecture (Hardware)
+### Day 01 - Computer Architecture (Hardware)
 **Topic:** CA-Hardware
 
 **Assignments:**
-- `Assignments/Day1(CA-Hardware)/Day1.pptx`
+- `Assignments/Day01(CA-Hardware)/Day01.pptx`
 
 **Classwork:**
-- `Classwork/Day1(CA-Hardware)/Day1(CA-Hardware).docx`
+- `Classwork/Day01(CA-Hardware)/Day01(CA-Hardware).docx`
 
 ---
 
-### Day 2 - Computer Architecture (Hardware)
+### Day 02 - Computer Architecture (Hardware)
 **Topic:** CA-Hardware
 
 **Assignments:**
-- `Assignments/Day2(CA-Hardware)/Day2.docx`
+- `Assignments/Day02(CA-Hardware)/Day02(CA-Hardware).docx`
 
 **Classwork:**
-- `Classwork/Day2(CA-Hardware)/Day2(CA-Hardware)_questions.docx`
+- `Classwork/Day02(CA-Hardware)/Day02(CA-Hardware)_questions.docx`
 
 ---
 
-### Day 3 - Computer Architecture (Network)
+### Day 03 - Computer Architecture (Network)
 **Topic:** CA-Network
 
 **Assignments:**
-- `Assignments/Day3(CA-Network)/Day3.docx`
+- `Assignments/Day03(CA-Network)/Day03(CA-Network).docx`
 
 **Classwork:**
-- `Classwork/Day3(CA-Network)/Day3(CA-Network)_questions.docx`
+- `Classwork/Day03(CA-Network)/Day03(CA-Network)_questions.docx`
 
 ---
 
-### Day 4 - Computer Architecture (Network)
+### Day 04 - Computer Architecture (Network)
 **Topic:** CA-Network
 
 **Assignments:**
-- `Assignments/Day4(CA-Network)/Day4.docx`
+- `Assignments/Day04(CA-Network)/TOC_Task1.docx`
 
 **Classwork:**
-- `Classwork/Day4(CA-Network)/Day4(CA-Network)_questions.docx`
+- `Classwork/Day04(CA-Network)/Day04(CA-Network).docx`
 
 ---
 
-### Day 5 - Computer Architecture (Network)
+### Day 05 - Computer Architecture (Network)
 **Topic:** CA-Network
 
 **Assignments:**
-- `Assignments/Day5(CA-Network)/Day5.docx`
+- `Assignments/Day05(CA-Network)/TOC_Task2.docx`
 
 **Classwork:**
-- `Classwork/Day5(CA-Network)/Day5(CA-Network).docx`
+- `Classwork/Day05(CA-Network)/Day05(CA-Network).docx`
 
 ---
 
-### Day 6 - Linux OS and Git
+### Day 06 - Linux OS and Git
 **Topic:** Linux OS and git
 
 **Assignments:**
-- `Assignments/Day6(Linux OS and git)/TOC_Tasks(1,2,3,4,5,6).pdf`
+- `Assignments/Day06(Linux OS and git)/TOC_Tasks(1,2,3,4,5,6).pdf`
 
 **Classwork:**
-- `Classwork/Day6(Linux OS and git)/Day6(Linux OS and git).docx`
+- `Classwork/Day06(Linux OS and git)/Day06(Linux OS and git).docx` 
 
 ---
 
-### Day 7 - Linux OS and Git
+### Day 07 - Linux OS and Git
 **Topic:** Linux OS and git
 
 **Assignments:**
-- `Assignments/Day7(Linux OS and git)/TOC_Assignments(1,2,3).pdf`
+- `Assignments/Day07(Linux OS and git)/TOC_Assignments(1,2,3).pdf`
 
 **Classwork:**
-- `Classwork/Day7(Linux OS and git)/Day7(Linux OS and git).docx`
+- `Classwork/Day07(Linux OS and git)/Day07(Linux OS and git).docx`
 
 ---
 
-### Day 8 - C++ Programming
+### Day 08 - C++ Programming
 **Topic:** C++ Programming
 
 **Assignments:**
-- TOC Task 1A: `Assignments/Day8(C++ Programming)/TOC_Task1A/`
+- TOC Task 1A: `Assignments/Day08(C++ Programming)/TOC_Task1A/`
   - Documentation: `TOC_Task1A.docx`
   - Program: `TOC_Task1A_program.c`
-- TOC Task 1B: `Assignments/Day8(C++ Programming)/TOC_Task1B/TOC_Task1B_program.c`
+- TOC Task 1B: `Assignments/Day08(C++ Programming)/TOC_Task1B/TOC_Task1B_program.c`
 
 **Classwork:**
-- `Classwork/Day8(C++ Programming)/program1.c`
+- `Classwork/Day08(C++ Programming)/program1.c`
 
 ---
 
-### Day 9 - C++ Programming
+### Day 09 - C++ Programming
 **Topic:** C++ Programming
 
 **Assignments:**
-- `Assignments/Day9(C++ Programming)/Day9(C++ Programming).docx`
+- `Assignments/Day09(C++ Programming)/Day09(C++ Programming).docx`
 
 **Classwork:**
-- Programs 1-7: `Classwork/Day9(C++ Programming)/program[1-7].c`
+- Programs 1-7: `Classwork/Day09(C++ Programming)/program[1-7].c`
 
 ---
 
@@ -305,9 +305,9 @@ This repository is organized into two main folders:
 **Topic:** Linux System Programming
 
 **Assignments:**
-- TOC Task 6: `Assignments/Day24(Linux System Programming)/TOC_Task_6.docx`
-- TOC Task 7: `Assignments/Day24(Linux System Programming)/TOC_Task_7.pptx`
-- TOC Task 8: `Assignments/Day24(Linux System Programming)/TOC_Task_8_program.c`
+- TOC Task 6: `Assignments/Day24(Linux System Programming)/TOC_Task6.docx`
+- TOC Task 7: `Assignments/Day24(Linux System Programming)/TOC_Task7.pptx`
+- TOC Task 8: `Assignments/Day24(Linux System Programming)/TOC_Task8_program.c`
 - Data file: `data.txt`
 
 **Classwork:**
@@ -455,17 +455,49 @@ This repository is organized into two main folders:
 
 **Classwork:**
 - `Classwork/Day35(CA-Software)/Day35(CA-Software).docx`
+
+### Day 36 - Computer Architecture (Software)
+**Topic:** CA-Software
+**Assignments:**
+- `Assignments/Day36(CA-Software)/TOC_Exercise2.pdf`
+
+**Classwork:**
+- `Classwork/Day36(CA-Software)/Day36(CA-Software).docx`
+
+### Day 37 - SDLC
+**Topic:** Software Development Life Cycle (SDLC)
+**Assignments:**
+- `Assignments/Day37(SDLC)/TOC_Assignment1.pdf`
+
+**Classwork:**
+- `Classwork/Day37(SDLC)/Day37(SDLC).docx`
+
+### Day 38 - SDLC
+**Topic:** Software Development Life Cycle (SDLC)
+**Assignments:**
+- `Assignments/Day38(SDLC)/TOC_Assignment2/'
+- 'Design/Design.pdf`
+- 'SRS/WFC_SRS.pdf`
+- `Assignments/Day38(SDLC)/TOC_Task1.png`
+
+**Classwork:**
+- `Classwork/Day38(SDLC)/Day38(SDLC).docx`
 ---
 
 ## Complete TOC Tasks Index
 
+### CA-Network
+- **TOC Task 1**: Day 04 - `Assignments/Day04(CA-Network)/TOC_Task1.docx`
+- **TOC Task 2**: Day 05 - `Assignments/Day05(CA-Network)/TOC_Task2.docx`
+
+
 ### C Programming
-- **TOC Task 1A**: Day 8 - `Assignments/Day8(C++ Programming)/TOC_Task1A/`
-- **TOC Task 1B**: Day 8 - `Assignments/Day8(C++ Programming)/TOC_Task1B/`
-- **TOC Task 1C**: Day 13 - `Assignments/Day13(C++ Programming)/TOC_Task1C/`
-- **TOC Task 1D**: Day 13 - `Assignments/Day13(C++ Programming)/TOC_Task1D/`
-- **TOC Task 1E**: Day 13 - `Assignments/Day13(C++ Programming)/TOC_Task1E/`
-- **TOC Task 1F**: Day 13 - `Assignments/Day13(C++ Programming)/TOC_Task1F/`
+- **TOC Task 1A**: Day 08 - `Assignments/Day08(C Programming)/TOC_Task1A/`
+- **TOC Task 1B**: Day 08 - `Assignments/Day08(C Programming)/TOC_Task1B/`
+- **TOC Task 1C**: Day 13 - `Assignments/Day13(C Programming)/TOC_Task1C/`
+- **TOC Task 1D**: Day 13 - `Assignments/Day13(C Programming)/TOC_Task1D/`
+- **TOC Task 1E**: Day 13 - `Assignments/Day13(C Programming)/TOC_Task1E/`
+- **TOC Task 1F**: Day 13 - `Assignments/Day13(C Programming)/TOC_Task1F/`
 - **TOC Task 1G**: Day 14 - `Assignments/Day14(C++ Programming)/TOC_Task1G/`
 - **TOC Task 1H**: Day 14 - `Assignments/Day14(C++ Programming)/TOC_Task1H/`
 - **TOC Task 1J**: Day 14 - `Assignments/Day14(C++ Programming)/TOC_Task1J/`
@@ -504,6 +536,14 @@ This repository is organized into two main folders:
 - **TOC Assignment 2**: Day 33 - `Assignments/Day33(CA-Software)/TOC_Assignment2.pdf`
 - **TOC Assignment 3**: Day 34 - `Assignments/Day34(CA-Software)/TOC_Assignment3.pdf`
 - **TOC Exercise 1**: Day 35 - `Assignments/Day35(CA-Software)/TOC_Exercise1.pdf`
+- **TOC Exercise 2**: Day 36 - `Assignments/Day36(CA-Software)/TOC_Exercise2.pdf`
+
+### SDLC
+- **TOC Assignment 1**: Day 37 - `Assignments/Day37(SDLC)/TOC_Assignment1.pdf`
+- **TOC Assignment 2**: Day 38 - `Assignments/Day38(SDLC)/TOC_Assignment2/`
+  - 'Design/Design.pdf`
+  - 'SRS/WFC_SRS.pdf`
+- **TOC_Task1**: Day 38 - `Assignments/Day38(SDLC)/TOC_Task1.png`
 ---
 
 ## Getting Started
