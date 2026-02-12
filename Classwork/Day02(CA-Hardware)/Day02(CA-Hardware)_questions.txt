@@ -1,0 +1,55 @@
+1)	 Difference between Multicore CPU vs GPU’s based on their core count and intended use case?
+Multicore CPU
+•	Goal: CPU utilization; avoid CPU idle time.
+•	CPU: Single CPU.
+•	How it works: Multiple programs loaded into memory; when one waits (e.g., for I/O), OS switches to another.
+•	User View: Sequential execution of jobs.
+
+Multicore CPU’s are the example of SIMD(Single Instruction and Mutiple data).
+Applications-1) Traditional AI Inference (Specific
+                        2) Operating Systems and Applications
+ 		    3) Database Management
+GPU (Graphical Processing Unit)
+•	Goal -Rapid processing Complex visual data
+•	Uses Relies on CPU for parallel execution of tasks
+•	Types- Integrated GPU, Discrete GPU
+•	GPU Applications-1) Graphics rendering and gaming
+                                2)Machine learning and AI
+  3)Deep Learning
+ 		4)Scientific Simulations
+
+
+2)	Define race condition in the context of parallel programming and tell how is typically in software?
+Race condition situation when process try to access the same resource or data. In terms of parallel programming race condition bug occurs when multiple threads or process try to access the same data. Which lead to data corruption and sometimes loss of data. This parallel execution of process of threads or process on data is not configured by programmer rather than the underlying operation system.
+How it manifests in software (Examples)
+•	Banking: Two withdrawals from the same account. Both threads see sufficient funds, both withdraw, resulting in an overdraft.
+•	File Access: Multiple processes write to the same log file, leading to jumbled or missing log entries.
+How to prevent it
+•	Synchronization: Use tools like mutexes (mutual exclusion locks), semaphores, or monitors to ensure only one thread accesses the critical section (shared resource) at a time.
+•	Atomic Operations: Use operations guaranteed to complete without interruption.
+•	Thread-Safe Data Structures: Use concurrent data structures designed for safe multi-threaded access.
+
+3)	 what is the main advantage over asic and fgpa 
+FPGA Advantages (vs. ASIC)
+•	Reconfigurability: Can be reprogrammed after manufacturing, ideal for evolving standards or bug fixes.
+•	Faster Time-to-Market: Faster development cycles and off-the-shelf availability reduce time to deployment.
+•	Lower Upfront Costs (NRE): No expensive mask sets, making them cheaper for low-to-medium volume.
+•	Prototyping: Excellent for testing ASIC designs before committing to mass production.
+
+ASIC Advantages (vs. FPGA)
+•	Performance: Higher speeds, lower latency, and better power efficiency because they are custom-built for one job.
+•	Lower Unit Cost (High Volume): Economies of scale make per-chip cost very low in large quantities.
+•	Smaller Size & Lower Power: More compact and consume less energy for the same function.
+•	Security: More robust against certain vulnerabilities due to fixed hardware.
+
+Choose ASIC for: High-volume products, applications needing maximum performance/efficiency, and long-term, stable functions.
+
+4)	Explain I/O bottle neck one hardware solution to mitigate it?
+•	An I/O bottleneck occurs when the processor (CPU) can handle data faster than the input/output (I/O) subsystem (e.g., hard drives, network connection) can feed it data or write its results.
+
+•	The CPU spends a significant amount of time idle, waiting for data to arrive from or be written to these slower peripheral devices
+
+One Hardware Solution: Implementing Solid-State Drives (SSDs)
+•	Mechanism
+•	Mitigation
+•	Performance Improvement

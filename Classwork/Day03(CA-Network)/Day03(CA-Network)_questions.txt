@@ -1,0 +1,59 @@
+1)	What is network protocol?
+A network protocol is a set of rules that govern how data is transmitted and received between devices on a network, allowing them to communicate effectively. These rules define the format, timing, data rate, and error handling for data exchange, ensuring that devices from different manufacturers can communicate seamlessly.
+       Key functions of network protocols
+•	Data format
+•	Timing and flow control
+•	Error handling
+•	Addressing and routing
+•	Security
+       Examples of protocols
+•	HTTP
+•	HTPPS
+•	FTP
+•	SMTP
+•	IMAP
+•	POP3
+
+2)	Why star toplogy preferred over bus topology in office?
+Star topology is preferred over bus topology in modern networks due to its superior reliability (single cable failure doesn't crash the network), easier troubleshooting, better performance with fewer collisions (especially with switches), enhanced scalability, and improved security, despite requiring more cabling and a central hub/switch
+
+Advantages of star toplogy
+•	Fault tolerance
+•	Easy troubleshoot
+•	Performance
+•	Scalabilty
+•	Security
+              Disadvantages of bus toplogy
+o	Single point failure
+o	Peformance bottle necks
+o	Difficult to troubleshoot
+o	scalabilty
+
+
+
+
+
+4)	Why is osi model helpful over tcp/ip?
+OSI Model's Advantages
+•	Education & Design: Its strict, detailed layers (Physical, Data Link, Network, Transport, Session, Presentation, Application) offer a complete conceptual map for designing and understanding network communication.
+•	Troubleshooting: The granular separation allows IT pros to isolate problems precisely, e.g., "Is the issue physical (cables), data link (MAC address), or network (IP routing)?”.
+•	Standardization: Promotes interoperability by defining specific functions, ensuring different vendors' devices can communicate.
+OSI provides a clear theoretical framework, separating functions (like Presentation & Session) that TCP/IP bundles, making it easier to pinpoint issues from physical cables (Layer 1) to application logic (Layer 7).
+
+5)	 Explain real world scenario UDP peform better than UDP?
+When to use UDP (Speed & Real-Time)
+•	Video/Audio Streaming: Minor packet loss is better than delays.
+•	Online Gaming: Fast updates on player positions are vital; lost packets are quickly replaced by new data.
+•	DNS & DHCP: Simple, fast queries and responses.
+•	VoIP (Voice over IP): Real-time conversation needs low latency. 
+
+6)   Explain the role of SSL/TLS in network?
+Key Roles of SSL/TLS:
+•	Encryption (Confidentiality): 
+•	Authentication (Identity Verification)
+•	Integrity (Data Tamper-Proofing)
+•	Foundation for HTTPS
+How it Works 
+•	Handshake: When you visit a secure site, your browser and the server perform a handshake, exchanging messages to agree on security protocols and generate shared secret keys.
+•	Certificate Exchange: The server presents its SSL/TLS certificate (issued by a trusted Certificate Authority) to prove its identity.
+•	Secure Session: Once verified, all subsequent data is encrypted using the agreed-upon keys, creating a secure tunnel (the padlock icon in your browser).
