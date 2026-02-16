@@ -1,0 +1,8 @@
+[2026-02-13 06:14:05] [OPERATIONAL] [REGISTRY] Initialized registry.
+[2026-02-13 06:14:05] [CRITICAL] [TUNNEL] Setup Error: Bind failed on port 8080
+[2026-02-13 06:14:06] [OPERATIONAL] [REGISTRY] Initialized registry.
+[2026-02-13 06:14:06] [CRITICAL] [TUNNEL] Setup Error: Bind failed on port 8080
+[2026-02-13 06:14:59] [OPERATIONAL] [REGISTRY] Initialized registry.
+[2026-02-13 06:14:59] [OPERATIONAL] [TUNNEL] DCRMS Server Online. Listening on Port 8080
+[2026-02-13 06:15:05] [OPERATIONAL] [TUNNEL] Registration APPROVED: Node 102
+[2026-02-13 06:15:05] [OPERATIONAL] [REGISTRY] New Node Registered: 102

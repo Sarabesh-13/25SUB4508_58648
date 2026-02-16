@@ -500,6 +500,16 @@ This repository is organized into two main folders:
 - `Assignments/Day41(CAPSTONE)/Day41(CAPSTONE).txt`
 **Classwork:**
 - `Classwork/Day41(CAPSTONE)/Day41(CAPSTONE).txt`
+
+### Day 42 - CAPSTONE
+**Assignments:**
+- `Assignments/Day42(CAPSTONE)/Day42(CAPSTONE).txt`
+**Classwork:**
+- `Classwork/Day42(CAPSTONE)/Day42(CAPSTONE).txt`
+
+### Day 43 - CAPSTONE
+**Capstone Project:**
+- `Capstone_project/`
 ---
 
 ## Complete TOC Tasks Index
@@ -562,6 +572,9 @@ This repository is organized into two main folders:
   - 'Design/Design.pdf`
   - 'SRS/WFC_SRS.pdf`
 - **TOC_Task1**: Day 38 - `Assignments/Day38(SDLC)/TOC_Task1.png`
+
+### CAPSTONE
+- **Day 43** - 'Capstone_project/'
 ---
 
 ## Getting Started
