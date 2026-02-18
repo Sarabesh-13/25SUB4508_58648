@@ -442,6 +442,7 @@ This repository is organized into two main folders:
 
 ### Day 34 - Computer Architecture (Software)
 **Topic:** CA-Software
+
 **Assignments:**
 - TOC Assignment 3: `Assignments/Day34(CA-Software)/TOC_Assignment3.pdf`
 
@@ -450,6 +451,7 @@ This repository is organized into two main folders:
 
 ### Day 35 - Computer Architecture (Software)
 **Topic:** CA-Software
+
 **Assignments:**
 - `Assignments/Day35(CA-Software)/TOC_Exercise1.pdf`
 
@@ -458,6 +460,7 @@ This repository is organized into two main folders:
 
 ### Day 36 - Computer Architecture (Software)
 **Topic:** CA-Software
+
 **Assignments:**
 - `Assignments/Day36(CA-Software)/TOC_Exercise2.pdf`
 
@@ -466,6 +469,7 @@ This repository is organized into two main folders:
 
 ### Day 37 - SDLC
 **Topic:** Software Development Life Cycle (SDLC)
+
 **Assignments:**
 - `Assignments/Day37(SDLC)/TOC_Assignment1.pdf`
 
@@ -474,6 +478,7 @@ This repository is organized into two main folders:
 
 ### Day 38 - SDLC
 **Topic:** Software Development Life Cycle (SDLC)
+
 **Assignments:**
 - `Assignments/Day38(SDLC)/TOC_Assignment2/'
 - 'Design/Design.pdf`
@@ -484,30 +489,35 @@ This repository is organized into two main folders:
 - `Classwork/Day38(SDLC)/Day38(SDLC).txt`
 
 ### Day 39 - CAPSTONE
+
 **Assignments:**
 - `Assignments/Day39(CAPSTONE)/Day39(CAPSTONE).txt`
 **Classwork:**
 - `Classwork/Day39(CAPSTONE)/Day39(CAPSTONE).txt`
 
 ### Day 40 - CAPSTONE
+
 **Assignments:**
 - `Assignments/Day40(CAPSTONE)/Day40(CAPSTONE).txt`
 **Classwork:**
 - `Classwork/Day40(CAPSTONE)/Day40(CAPSTONE).txt`
 
 ### Day 41 - CAPSTONE
+
 **Assignments:**
 - `Assignments/Day41(CAPSTONE)/Day41(CAPSTONE).txt`
 **Classwork:**
 - `Classwork/Day41(CAPSTONE)/Day41(CAPSTONE).txt`
 
 ### Day 42 - CAPSTONE
+
 **Assignments:**
 - `Assignments/Day42(CAPSTONE)/Day42(CAPSTONE).txt`
 **Classwork:**
 - `Classwork/Day42(CAPSTONE)/Day42(CAPSTONE).txt`
 
 ### Day 43 - CAPSTONE
+
 **Capstone Project:**
 - `Capstone_project/`
 ---
